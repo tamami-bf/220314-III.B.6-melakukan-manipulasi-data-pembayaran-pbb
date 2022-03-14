@@ -17,6 +17,6 @@ Hasil manipulasi data dapat diakses pada alamat https://docs.google.com/spreadsh
 select kd_propinsi||kd_dati2||kd_kecamatan||kd_kelurahan||kd_blok||no_urut||kd_jns_op nop, 
   thn_pajak_sppt, jml_sppt_yg_dibayar
 from pembayaran_sppt
-where tgl_pembayaran_sppt between to_date('260220220000','DDMMYYYYHH24MI') and to_date('270220220000','DDMMYYYYHH24MI')
+where tgl_pembayaran_sppt between to_date('020320220000','DDMMYYYYHH24MI') and to_date('030320220000','DDMMYYYYHH24MI')
 order by kd_kecamatan, kd_kelurahan, kd_blok, no_urut, thn_pajak_sppt
 ----
